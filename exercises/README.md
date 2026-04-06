@@ -1,5 +1,56 @@
 # Exercises
 
+## Week 5 – Matplotlib Visualization (`week5_matplotlib_exercises.ipynb` / `week5_matplotlib_exercises_alt.ipynb`)
+
+Two completed versions of the same visualization exercise set (done collaboratively in class):
+
+| Problem | Description |
+|---|---|
+| Q1 – Planetary Orbits | Log-log plot of orbital period vs. distance for the solar system |
+| Q2 – Circle Drawing | Parametric circle using `(cos θ, sin θ)` |
+| Q3 – Multiple Circles | Generalized `draw_circle(x0, y0, R, color)`; 10 random circles |
+| Q4 – Climate Data | NASA GISS temperature anomaly plot: smoothed line + colored scatter (blue/red) |
+| Q5 – Subplots | Function, first derivative, and second derivative stacked in a 3-panel figure |
+| Q6 – Word Frequency | Parse Star Trek transcript with regex; bar chart of top 25 most frequent words |
+
+---
+
+## Week 5 – Advanced Python (`week5_advanced_python.ipynb`)
+
+| Exercise | Description |
+|---|---|
+| Rock-Paper-Scissors | Interactive game vs. computer with score tracking |
+| Pascal's Triangle | Generate first n rows using `scipy.special.comb` |
+| Pangrams | Check if a sentence contains all 26 letters |
+| Math Table | Table of angles with sin, cos, and sin²+cos² values |
+| Calendar / OOP | `Event` and `Day` classes; weekly schedule with appointments |
+
+---
+
+## SciPy – Numerical Integration (`scipy_numerical_integration.ipynb`)
+
+- Integrates a Gaussian `f(x) = exp(−x²)` using `scipy.integrate.simps`
+- Compares numerical result to exact value `√π`
+- Error vs. number of sample points — verifies 4th-order (Simpson) convergence
+
+---
+
+## SciPy – Signal Processing (`scipy_signal_processing.ipynb`)
+
+- Adds noise to a synthetic signal
+- Applies numerical filtering using Fourier analysis
+- Domain: 2048 points over L = 50
+
+---
+
+## SciPy – Linear Algebra (`scipy_linear_algebra.ipynb`)
+
+- Solves linear systems `Ax = b` using Hilbert matrices of increasing size
+- Computes condition numbers and solution error to demonstrate numerical instability
+- Shows how condition number growth degrades accuracy as matrix size increases
+
+---
+
 ## Week 3 – Python Basics (`week3_python_basics.ipynb`)
 
 Introductory Python exercises covering core language features.
